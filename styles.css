@@ -252,6 +252,12 @@ footer p{
     margin: 0 auto;
 }
 
+/* Contact */
+
+section.contact {
+    margin-top: 10px;
+}
+
 
 /* Media Queries */
 
