@@ -215,7 +215,11 @@ footer p{
 }
 
 .songs h2 {
-    color: #9b3009;
+    /* color: #7f3a00; */
+}
+
+.songs h3 {
+    color: #6a370d;
 }
 
 .song-title {
@@ -231,8 +235,7 @@ footer p{
 }
 
 .songs a:hover {
-   
-    color: #9b3009;
+    color: #7f3a00;
     
 }
 
