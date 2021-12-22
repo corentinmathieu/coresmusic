@@ -7,7 +7,7 @@
 
 :root {
     --brown: #6C6760;
-    --beige : #F4F4F0;
+    --beige : #f6f6f6;
     /* --beige : #EBEBE3; */
     --noir: #343a40;
 }
@@ -215,11 +215,12 @@ footer p{
 }
 
 .songs h2 {
-    /* color: #7f3a00; */
+    color: #343a3f;
+    margin-bottom: 0.7rem;
 }
 
 .songs h3 {
-    color: #6a370d;
+ color: var(--brown);
 }
 
 .song-title {
@@ -231,16 +232,16 @@ footer p{
 }
 
 .songs a {
-    color: #0b08ad;
+    color:  #3b7674;
 }
 
 .songs a:hover {
-    color: #7f3a00;
+    color: #02505c;
     
 }
 
 .songs .separator {
-    color: #0b08ad;
+    color: #3b7674;
 }
 
 .songs ul.score-list {
