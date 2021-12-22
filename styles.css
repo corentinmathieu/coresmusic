@@ -220,23 +220,20 @@ footer p{
 }
 
 .songs h3 {
- color: var(--brown);
+    color: #06487e;
 }
 
 .song-title {
     display: inline;
     font-size: 1.1rem;
-    /* color: var(--brown); */
-    /* color: #B62E0C; */
-    /* color: #287416; #9d1010 */
 }
 
 .songs a {
-    color:  #3b7674;
+    color: #02505c;
 }
 
 .songs a:hover {
-    color: #02505c;
+    color:  #3b7674;
     
 }
 
