@@ -22,6 +22,10 @@ h1, h2, .nav-link {
     font-family: 'Londrina Solid', cursive !important;
 }
 
+h1 {
+    letter-spacing: 1px;
+}
+
 .navbar-brand, footer {
     font-family: 'Special Elite', cursive;
 }
