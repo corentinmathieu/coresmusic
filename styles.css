@@ -1,21 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Concert+One&family=Handlee&family=Kalam:wght@400;700&family=Lobster&family=Lobster+Two:wght@400;700&family=Londrina+Solid&family=Neuton:wght@400;700&family=Special+Elite&display=swap');
+
 * {
     margin: 0;
     padding:0 ;
 }
 
-/*  rgb(118, 112, 104); */
 
 :root {
     --brown: #6C6760;
     --beige : #f6f6f6;
-    /* --beige : #EBEBE3; */
     --noir: #343a40;
 }
-
 
 body{
     background-color: var(--brown);
 }
+
+/* FONT */
+
+h1, h2, .nav-link {
+    font-family: 'Londrina Solid', cursive !important;
+}
+
+.navbar-brand, footer {
+    font-family: 'Special Elite', cursive;
+}
+
+/* DIVERS */
 
 section {
     margin-top: 25px;
@@ -23,10 +34,6 @@ section {
 
 h2 {
     color: var(--noir);
-}
-
-p {
-    text-align: justify;
 }
 
 a{
@@ -50,7 +57,7 @@ img{
     min-height: 100vh;
 }
 
-/* Nav */
+/* NAV */
 
 .wrapper{
     max-width: 1400px;
@@ -67,6 +74,7 @@ img{
 
 .navbar-dark .navbar-nav .nav-link {
     color : rgba(235, 235, 227,.7);
+    font-size: 1.1rem;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
     color:var(--beige);
