@@ -273,6 +273,12 @@ footer p{
     margin: 0 auto;
 }
 
+/* Contact */
+
+.form-container {
+    width: 80%;
+}
+
 
 /* Media Queries */
 
@@ -286,6 +292,9 @@ footer p{
     }
     .bandcamp-text {
         font-size: 1.4rem;
+    }
+    .form-container {
+        width: 100%;
     }
 }
 
@@ -305,6 +314,7 @@ footer p{
     .bandcamp-link:hover:after {
         width: 44%;
       }
+     
     
 }
 
@@ -317,6 +327,8 @@ footer p{
     .songs a {
         font-size: 0.9rem;
     } 
+
+    
 }
 
 @media screen and (max-width: 595px) {
