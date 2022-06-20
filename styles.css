@@ -1,407 +1,384 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Special+Elite&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Special+Elite&display=swap");
 
 * {
-    margin: 0;
-    padding:0 ;
+  margin: 0;
+  padding: 0;
 }
-
 
 :root {
-    --brown: #6C6760;
-    --beige : #f6f6f6;
-    --noir: #343a40;
+  --brown: #6c6760;
+  --beige: #f6f6f6;
+  --noir: #343a40;
 }
 
-body{
-    background-color: var(--brown);
+body {
+  background-color: var(--brown);
 }
 
 /* FONT */
 
-h1, h2, .nav-link {
-    font-family: 'Londrina Solid', cursive !important;
+h1,
+h2,
+.nav-link {
+  font-family: "Londrina Solid", cursive !important;
 }
 
 h1 {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
-.navbar-brand, footer {
-    font-family: 'Special Elite', cursive;
+.navbar-brand,
+footer {
+  font-family: "Special Elite", cursive;
 }
 
 /* DIVERS */
 
 section {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 h2 {
-    color: var(--noir);
+  color: var(--noir);
 }
 
-a{
-    color: var(--beige);
+a {
+  color: var(--beige);
 }
 
-a:hover{
-    color: rgb(254, 203, 137);
+a:hover {
+  color: rgb(254, 203, 137);
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 
 /* classe pour remplir l'espace dans les sections encore un peu vides */
 .height-100 {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 /* NAV */
 
-.wrapper{
-    max-width: 1400px;
-    margin: auto;
+.wrapper {
+  max-width: 1400px;
+  margin: auto;
 }
 
 .nav-wrapper {
-   height: 56px;
+  height: 56px;
 }
 
 .navbar-dark .navbar-brand {
-    color:var(--beige);
+  color: var(--beige);
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color : rgba(235, 235, 227,.7);
-    font-size: 1.1rem;
+  color: rgba(235, 235, 227, 0.7);
+  font-size: 1.1rem;
 }
-.navbar-dark .navbar-nav .nav-link:hover{
-    color:var(--beige);
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--beige);
 }
 
-#navbarNav .navbar-nav .nav-item .active{
-    color:var(--beige);
+#navbarNav .navbar-nav .nav-item .active {
+  color: var(--beige);
 }
 
 /* HEADER */
 
-header{
-    margin-top: 56px;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;  
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    background-image: url('Images/core.jpeg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+header {
+  margin-top: 56px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Images/core.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-.bg-opaque{
-    background-color: #333;
-    opacity: 0.5;
-    width: 100%;
-    height: 200px;
-    border-radius: 6px;
+.bg-opaque {
+  background-color: #333;
+  opacity: 0.5;
+  width: 100%;
+  height: 200px;
+  border-radius: 6px;
 }
 
-.title{
-    color:var(--beige);
-    padding: 1rem;
-    text-align: center;
-    width: 80%;
-    border-radius: 6px;
-    opacity: 1;
-    position: absolute;
+.title {
+  color: var(--beige);
+  padding: 1rem;
+  text-align: center;
+  width: 80%;
+  border-radius: 6px;
+  opacity: 1;
+  position: absolute;
 }
 
 #luc {
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
-    font-size: 0.7rem;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  font-size: 0.7rem;
 }
 
 #luc a {
-    transition: all ease-in 0.5s;
-    color: var(--beige);
+  transition: all ease-in 0.5s;
+  color: var(--beige);
 }
 
 #luc a:hover {
-   text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* MAIN */
 
 main {
-    margin: 0 auto;
-    padding-bottom: 200px;
-    }
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
 
 .button-wrapper {
-    width: 80%;
-    max-width: 1400px;
-    margin: 0 auto;
+  width: 80%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .button-wrapper a {
-    color: var(--beige);
+  color: var(--beige);
 }
 
 /* Main Image */
 
 .main-image {
-    position: relative;
-
+  position: relative;
 }
 
-
-.logo-wrapper{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.logo-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.logo-wrapper img{
-   width: 35%;
-   transition: all 1s ease-in-out;
+.logo-wrapper img {
+  width: 35%;
+  transition: all 1s ease-in-out;
 }
 
 .logo-wrapper img:hover {
-    width: 45%;
+  width: 45%;
 }
 
-.presentation {
-    margin: 0 auto;
-    padding: 30px 0;
-    max-width: 90%;
-
+.text-container {
+  margin: 30px auto;
+  max-width: 90%;
 }
 
 /* Bandcamp */
 
 .bandcamp-text {
-    margin-top: 20px;
-    font-size: 1.6rem;
+  margin-top: 20px;
+  font-size: 1.6rem;
 }
 
 .bandcamp-logo {
-    width: 40%;
-    transition: all 1s;
+  width: 40%;
+  transition: all 1s;
 }
 
-.bandcamp-link{
-    position: relative;
-    text-decoration: none; 
+.bandcamp-link {
+  position: relative;
+  text-decoration: none;
 }
-   
-  .bandcamp-link:after {
-    content: "";
-    display: block;
-    margin: -2% auto;
-    width: 0%;
-    height: 5px;
-    background: #61929c;
-    transition: width 0.2s ease-in-out;
-  }
-   
-  .bandcamp-link:hover:after {
-    width: 35%;
-  }
+
+.bandcamp-link:after {
+  content: "";
+  display: block;
+  margin: -2% auto;
+  width: 0%;
+  height: 5px;
+  background: #61929c;
+  transition: width 0.2s ease-in-out;
+}
+
+.bandcamp-link:hover:after {
+  width: 35%;
+}
 
 /* footer */
 
-footer p{
-    margin-bottom: 0;
-    color:var(--beige);
+footer p {
+  margin-bottom: 0;
+  color: var(--beige);
 }
-
-
 
 /* Songs Section */
 
 .songs {
-    background-color: var(--beige);
-    height: auto;
-    
+  background-color: var(--beige);
+  height: auto;
 }
 
 .songs h2 {
-    color: #343a3f;
-    margin-bottom: 0.7rem;
+  color: #343a3f;
+  margin-bottom: 0.7rem;
 }
 
 .songs h3 {
-    color: #06487e;
+  color: #06487e;
 }
 
 .song-title {
-    display: inline;
-    font-size: 1.1rem;
+  display: inline;
+  font-size: 1.1rem;
 }
 
 .songs a {
-    color: #086f47;
+  color: #086f47;
 }
 
 .songs a:hover {
-    color:   #106030;
+  color: #106030;
 }
 
 .songs .separator {
-    color: #086f47;
+  color: #086f47;
 }
 
 .songs ul.score-list {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* About */
 
 .boutton-youtube-bio {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* Contact */
 
 .form-container {
-    width: 80%;
+  width: 80%;
 }
 
 /* Modal */
 
 .modal-content {
-    background-color: var(--beige);
+  background-color: var(--beige);
 }
 
 .modal h5 {
-    color: #086f47;
+  color: #086f47;
 }
 
 .modal .modal-footer button {
-    background-color: #06487e;
-    color: #f6f6f6;
+  background-color: #06487e;
+  color: #f6f6f6;
 }
-
 
 /* Media Queries */
 
-
 @media screen and (max-width: 991px) {
-    .button-wrapper{
-        position: absolute;
-        bottom: -90px;
-        left: 50%;
-        transform: translate(-50%, -50%)  
-    }
-    .bandcamp-text {
-        font-size: 1.4rem;
-    }
-    .form-container {
-        width: 100%;
-    }
+  .button-wrapper {
+    position: absolute;
+    bottom: -90px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .bandcamp-text {
+    font-size: 1.4rem;
+  }
+  .form-container {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 822px) {
-    h1.title{
-        font-size: 3.5rem;
-    }
-    .bandcamp-text {
-        margin-top: 20px;
-        font-size: 1.2rem;
-    }
-    
-    .bandcamp-logo {
-        width: 50%;
-    }
+  h1.title {
+    font-size: 3.5rem;
+  }
+  .bandcamp-text {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
 
-    .bandcamp-link:hover:after {
-        width: 44%;
-      }
-     
-    
+  .bandcamp-logo {
+    width: 50%;
+  }
+
+  .bandcamp-link:hover:after {
+    width: 44%;
+  }
+
+  .text-container {
+    margin: 30px auto;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 690px) {
-   
-    .songs h3 {
-        font-size: 1rem;
-    }
+  .songs h3 {
+    font-size: 1rem;
+  }
 
-    .songs a {
-        font-size: 0.9rem;
-    } 
-
-    .presentation {
-        margin-bottom: 0;
-        padding: 10px 0;
-    }
-
-    
+  .songs a {
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (max-width: 595px) {
-  h1.title{
-      font-size: 2.8rem;
+  h1.title {
+    font-size: 2.8rem;
   }
 
   .bandcamp-text {
     margin-top: 20px;
     font-size: 1rem;
   }
-
- 
-
-
 }
 
 @media screen and (max-width: 485px) {
+  section {
+    margin-top: 15px;
+  }
 
-    section {
-        margin-top: 15px;
-    }
+  h1.title {
+    font-size: 2.2rem;
+  }
 
+  .songs h2 {
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+  }
 
-    h1.title {
-        font-size: 2.2rem;
-    }   
+  .songs h3 {
+    font-size: 0.8rem;
+  }
 
-    .songs h2 {
-        font-size: 1.2rem;
-        margin-bottom: 4px;
-    }
+  .songs a {
+    font-size: 0.8rem;
+  }
 
-    .songs h3 {
-        font-size: 0.8rem;
-    }
-
-    .songs a {
-        font-size: 0.8rem;
-    }
-
-    .songs ul.score-list {
-     margin-bottom: 0;
-    }
-
+  .songs ul.score-list {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    h1.title{
-      font-size: 1.9rem;
+  h1.title {
+    font-size: 1.9rem;
   }
-
-  
-
 }
-
