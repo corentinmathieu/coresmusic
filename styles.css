@@ -348,6 +348,12 @@ footer p {
     margin-top: 20px;
     font-size: 1rem;
   }
+
+  .text-container {
+    margin: 10px auto;
+    max-width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 485px) {
