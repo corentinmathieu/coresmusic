@@ -69,14 +69,51 @@
       <div class="bg-opaque"></div>
       <h1 class="title display-2 font-weight-bold">Arrangements</h1>
     </header>
+    
+    <!-- Modal -->
+   
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Coming Soon</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            This video is not yet available.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" data-dismiss="modal">Close</button>
+           
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- MAIN SECTION -->
+     <!-- MAIN SECTION -->
 
     <main class="songs text-center pt-3">
       
 
       <section id="the-beatles">
         <h2 class="h4">The Beatles :</h2>
+        <ul class="score-list">
+          <li>
+            <h3 class="song-title">All My Loving :</h3>
+            <a
+              href="partitions/arrangements/all-my-loving-the-beatles.pdf"
+              target="_blank"
+              >full score
+            </a>
+            <span class="separator">|</span>
+
+            <a href="#" data-toggle="modal" data-target="#exampleModal"
+              >video</a
+            >
+          </li>
+        </ul>
         <ul class="score-list">
           <li>
             <h3 class="song-title">Here Comes The Sun :</h3>

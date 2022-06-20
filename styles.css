@@ -248,18 +248,15 @@ footer p{
 }
 
 .songs a {
-    /* color: #02505c; */
     color: #086f47;
 }
 
 .songs a:hover {
-    /* color:  #3b7674; */
-    color:  #3fb16d;
-    
+    color:   #106030;
 }
 
 .songs .separator {
-    color: #3b7674;
+    color: #086f47;
 }
 
 .songs ul.score-list {
@@ -277,6 +274,21 @@ footer p{
 
 .form-container {
     width: 80%;
+}
+
+/* Modal */
+
+.modal-content {
+    background-color: var(--beige);
+}
+
+.modal h5 {
+    color: #086f47;
+}
+
+.modal .modal-footer button {
+    background-color: #06487e;
+    color: #f6f6f6;
 }
 
 
