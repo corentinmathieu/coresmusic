@@ -6,7 +6,7 @@
     <title>Core's Music</title>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="favicon.png" />
   </head>
   <body>
     <div class="bg-dark nav-wrapper fixed-top">
@@ -45,9 +45,15 @@
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="compositions.html">Compositions</a>
-                <a class="dropdown-item" href="arrangements.html">Arrangements</a>
-                <a class="dropdown-item" href="classical-guitar.html">Classical guitar</a>
+                <a class="dropdown-item" href="compositions.html"
+                  >Compositions</a
+                >
+                <a class="dropdown-item" href="arrangements.html"
+                  >Arrangements</a
+                >
+                <a class="dropdown-item" href="classical-guitar.html"
+                  >Classical guitar</a
+                >
                 <a class="dropdown-item" href="songs.html"
                   >Songs - Accompaniment</a
                 >
@@ -70,7 +76,6 @@
     <!-- MAIN SECTION -->
 
     <main class="songs text-center pt-3">
-
       <!-- The Beatles -->
       <section id="the-beatles">
         <h2 class="h4">The Beatles :</h2>
@@ -127,7 +132,11 @@
               >full score
             </a>
             <span class="separator">|</span>
-            <a href="#" data-toggle="modal" data-target="#coming-soon-modal">video</a>
+            <a
+              href="https://www.youtube.com/watch?v=CrtVS0PTDJw"
+              target="_blank"
+              >Video</a
+            >
           </li>
         </ul>
       </section>
@@ -152,7 +161,7 @@
           </li>
         </ul>
       </section>
-     
+
       <!-- Graham Coxon -->
       <section id="graham-coxon">
         <h2 class="h4">Graham Coxon :</h2>
@@ -277,7 +286,7 @@
           </li>
         </ul>
       </section>
-      
+
       <!-- Eagles -->
       <section id="eagles">
         <h2 class="mb-2 h4">Eagles :</h2>
@@ -293,7 +302,7 @@
             <a
               href="partitions/songs/eagles/hotel-california-eagles-notation.pdf"
               target="_blank"
-              >notation 
+              >notation
             </a>
             <span class="separator">|</span>
             <a
@@ -347,7 +356,6 @@
             >
           </li>
         </ul>
-
       </section>
 
       <!-- Eagles -->
@@ -428,7 +436,7 @@
               >tab
             </a>
             <span class="separator">|</span>
-          
+
             <a
               href="https://www.youtube.com/watch?v=xXCCwe4DZeE&list=PL57zLaksATsaBpdHBhf3bjq2Y8Kmm0Tpj&index=11"
               >video</a
@@ -647,11 +655,11 @@
               >tab
             </a>
             <span class="separator">|</span>
-            <a href="https://youtu.be/TPXJZBJSHqY"  target="_blank">video</a>
+            <a href="https://youtu.be/TPXJZBJSHqY" target="_blank">video</a>
           </li>
         </ul>
       </section>
-      
+
       <!-- Angus and Julia Stone -->
       <section id="stone">
         <h2 class="mb-2 h4">Angus and Julia Stone :</h2>
@@ -663,7 +671,7 @@
               target="_blank"
               >tab
             </a>
-          
+
             <span class="separator">|</span>
             <a
               href="https://www.youtube.com/watch?v=MVhPtZx1yrY&list=PL57zLaksATsaBpdHBhf3bjq2Y8Kmm0Tpj&index=12"
@@ -684,7 +692,7 @@
               target="_blank"
               >tab
             </a>
-          
+
             <span class="separator">|</span>
             <a
               href="https://www.youtube.com/watch?v=sBihZVmOctw&list=PL57zLaksATsaBpdHBhf3bjq2Y8Kmm0Tpj&index=18"
@@ -694,32 +702,41 @@
           </li>
         </ul>
       </section>
-    
     </main>
 
     <footer class="bg-dark fixed-bottom p-3">
       <p class="text-center">&copy; Core's Music 2021</p>
     </footer>
 
-
     <!-- Fenêtre Modale -->
 
-       <!-- <a href="#" data-toggle="modal" data-target="#coming-soon-modal">video</a> -->
-    <div class="modal fade" id="coming-soon-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- <a href="#" data-toggle="modal" data-target="#coming-soon-modal">video</a> -->
+    <div
+      class="modal fade"
+      id="coming-soon-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Coming Soon</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
-            This video is not yet available.
-          </div>
+          <div class="modal-body">This video is not yet available.</div>
           <div class="modal-footer">
-            <button type="button" class="btn" data-dismiss="modal">Close</button>
-           
+            <button type="button" class="btn" data-dismiss="modal">
+              Close
+            </button>
           </div>
         </div>
       </div>
