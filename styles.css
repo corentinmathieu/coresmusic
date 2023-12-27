@@ -259,9 +259,13 @@ footer p {
 
 /* Enlever les ul inutiles et mettre le margin bottom sur les li contenu dans les ul qui ont la classe score-list */
 
-.songs ul.score-list {
-  margin-bottom: 0.5rem;
+
+
+.score-list li {
+  margin-bottom: 0.8rem;
 }
+
+
 
 /* About */
 
@@ -383,6 +387,12 @@ footer p {
   .songs ul.score-list {
     margin-bottom: 0;
   }
+
+  .score-list li {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
 }
 
 @media screen and (max-width: 400px) {
