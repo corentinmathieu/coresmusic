@@ -257,9 +257,6 @@ footer p {
   color: #086f47;
 }
 
-/* Enlever les ul inutiles et mettre le margin bottom sur les li contenu dans les ul qui ont la classe score-list */
-
-
 
 .score-list li {
   margin-bottom: 0.8rem;
