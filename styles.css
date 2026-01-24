@@ -268,9 +268,12 @@ footer p {
   color: #086f47;
 }
 
+ul.score-list {
+  margin-bottom: 0.6rem;
+}
 
 .score-list li {
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.6rem;
 }
 
 
