@@ -392,7 +392,7 @@ ul.score-list {
   }
 
   .songs a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .songs ul.score-list {
@@ -409,5 +409,18 @@ ul.score-list {
 @media screen and (max-width: 400px) {
   h1.title {
     font-size: 1.9rem;
+  }
+}
+/* cartes support my work */ 
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  a.btn.btn-library.btn-lg {
+    font-size: 0.85rem !important;
+    padding: 0.4rem 0.8rem !important;
   }
 }
