@@ -388,7 +388,7 @@ ul.score-list {
   }
 
   .songs h3 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .songs a {
@@ -420,7 +420,7 @@ ul.score-list {
 
 @media (max-width: 576px) {
   a.btn.btn-library.btn-lg {
-    font-size: 0.85rem !important;
+    font-size: 1rem !important;
     padding: 0.4rem 0.8rem !important;
   }
 }
