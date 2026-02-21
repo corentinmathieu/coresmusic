@@ -242,7 +242,7 @@ footer p {
   height: auto;
 }
 
-.songs h2 {
+.songs  {
   color: #343a3f;
   margin-bottom: 0.7rem;
 }
@@ -382,7 +382,7 @@ ul.score-list {
     font-size: 2.2rem;
   }
 
-  .songs h2 {
+  h2.songs  {
     font-size: 1.2rem;
     margin-bottom: 4px;
   }
@@ -424,5 +424,115 @@ ul.score-list {
   a.btn.btn-library.btn-lg {
     font-size: 1rem !important;
     padding: 0.4rem 0.8rem !important;
+  }
+}
+
+/* Videos */ 
+
+/* Grille des compositions */
+ul.compo-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* 1 carte par ligne par défaut */
+  gap: 20px;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  list-style: none;
+}
+
+@media (min-width: 900px) {
+  ul.compo-grid {
+    grid-template-columns: 1fr 1fr; /* 2 cartes par ligne sur grand écran */
+  }
+}
+
+/* Carte individuelle */
+li.compo-card {
+  background: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+/* Titre de la composition */
+.compo-card h3.compo-title {
+  font-family: "Londrina Solid", sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #222;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Boutons pour liens */
+.compo-card .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.compo-card .links a {
+  text-decoration: none;
+  padding: 6px 12px;
+  background: #06487e;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.compo-card .links a:hover {
+  background: #357ABD;
+}
+
+/* Wrapper vidéo 16:9 */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.video-wrapper iframe:hover {
+  transform: scale(1.03);
+}
+
+.section-compo-title {
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 1vw 0 10px 0;
+  color: #222;
+
+  /* Taille fixe pour mobile, toujours plus grande que les titres des cartes */
+  font-size: 1.8rem;
+
+  /* Sur grand écran, agrandissement progressif */
+}
+
+@media (min-width: 768px) {
+  .section-compo-title {
+    font-size: 3rem; /* plus grand que les titres des cartes */
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-compo-title {
+    font-size: 3rem; /* très visible sur grand écran */
   }
 }
