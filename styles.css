@@ -418,6 +418,8 @@ ul.score-list {
   }
 }
 
+/* access the library button */ 
+
 @media (max-width: 576px) {
   a.btn.btn-library.btn-lg {
     font-size: 1rem !important;
