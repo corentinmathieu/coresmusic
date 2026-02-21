@@ -486,7 +486,9 @@ li.compo-card {
 }
 
 .compo-card .links a:hover {
-  background: #357ABD;
+  border: 2px solid #06487e;
+  background-color: white;
+  color: #06487e;
 }
 
 /* Wrapper vidéo 16:9 */
