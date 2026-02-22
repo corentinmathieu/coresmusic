@@ -590,77 +590,50 @@ li.compo-card {
 }
 
 /* =========================
-   Responsive Mobile
+   Responsive Table Mobile
    ========================= */
+   /* Desktop = tableau visible, mobile caché */
+   .desktop-table { display: table; width: 100%; }
+   .mobile-cards { display: none; }
+   
+   /* Media query pour mobile */
    @media (max-width: 768px) {
-
-    .compositions-table table,
-    .compositions-table tbody,
-    .compositions-table tr,
-    .compositions-table td {
-      display: block;
-      width: 100%;
-    }
-  
-    /* Masquer le thead */
-    .compositions-table thead {
-      display: none;
-    }
-
-    .compositions-table td {
-      padding: 6px 15px;
-    }
-  
-    /* Card */
-    .compositions-table tr {
-      margin-bottom: 12px;
-      border: 1px solid #ddd;
-      padding: 10px 12px; /* réduit l'espace interne */
-      border-radius: 10px;
-      background-color: #fff;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-      text-align: center;
-    }
-  
-    /* Supprimer les anciens labels */
-    .compositions-table td::before {
-      content: none;
-    }
-  
-    /* Compositeur + titre sur une ligne */
-    .compositions-table td:first-child,
-    .compositions-table td:nth-child(2) {
-      display: inline;
-      padding: 0;
-      line-height: 1; /* resserre la hauteur de ligne */
-    }
-  
-    /* Compositeur en gras */
-    .compositions-table td:first-child {
-      font-weight: 700;
-    }
-  
-    /* Titre normal */
-    .compositions-table td:nth-child(2) {
-      font-weight: 400;
-    }
-  
-    /* Tiret */
-    .compositions-table td:first-child::after {
-      content: " – ";
-      font-weight: 400;
-    }
-  
-    /* Lien en dessous et centré */
-    .compositions-table td:last-child {
-      display: block;
-      margin-top: 0px;
-      line-height: 1;
-      text-align: center;
-    }
-    .compositions-table td:last-child {
-      border-bottom: none;
-    }
-  
-    
-  }
+     .desktop-table { display: none; }
+     .mobile-cards { display: block; }
+     .mobile-cards{
+       font-family: sans-serif;
+     }
+     .composer-group {
+       border: 1px solid #ddd;
+       border-radius: 10px;
+       margin: 12px;
+       padding: 10px;
+       background-color: #fff;
+     }
+     /* Nom du compositeur */
+     .composer-name {
+       
+       font-weight: 700;
+       text-align: center;
+       margin-bottom: 8px;
+     }
+      /* Chaque morceau */
+     .composer-piece {
+   
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 6px 0;
+       border-top: 1px solid #eee;
+     }
+   
+     .composer-piece:first-child { border-top: none; }
+   
+     .composer-piece span { font-weight: 400; }
+     .composer-piece a {
+       text-decoration: none;
+       color: #06487e;
+       margin-left: 10px;
+     }
+   
+   }
